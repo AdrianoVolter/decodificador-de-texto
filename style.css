@@ -1,23 +1,36 @@
 body {
     font-family: Arial, sans-serif;
- 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 .container {
     display: flex;
-    width: 80%;
     justify-content: space-between;
+    width: 80%;
+    margin: 20px 0;
 }
 textarea {
     width: 45%;
-    height: 300px;
+    height: 200px;
     resize: none;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+}
 .button {
-    display: block;
-    margin: 10px auto;
+    margin: 0 10px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -26,9 +39,10 @@ textarea {
     border: none;
     border-radius: 5px;
 }
-.result {
-    width: 45%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
 }
