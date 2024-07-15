@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Decodificado</title>
 </head>
 <body>
+
+    <h1>Decodificador</h1>
+
+    <div class="container">
+        <textarea id="inputText" placeholder="Digite o texto aqui"></textarea>
+        <textarea id="outputText" class="result" readonly></textarea>
+    </div>
     
-</body>
-</html>
+    <div class="container">
+        <button class="button" onclick="codificar()">Codificar</button>
+        <button class="button" onclick="decodificar()">Decodificar</button>
+    </div>
+    
+    <script src="script.js"></script>
+    
+    </body>
+    </html>
