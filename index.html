@@ -8,23 +8,32 @@
 </head>
 <body>
 
-    <h1>Decodificador de Texto</h1>
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
     
     <div class="container">
-        
-        <textarea id="inputText" placeholder="Digite o texto aqui"></textarea>
-        <textarea id="outputText" readonly></textarea>
+        <div class="input-group">
+            <h2>Texto para Criptografar/Descriptografar</h2>
+            <textarea id="inputText" placeholder="Digite o texto aqui"></textarea>
+        </div>
+        <div class="input-group">
+            <h2>Texto Criptografado/Descriptografado</h2>
+            <input type="text" id="outputText" readonly>
+        </div>
     </div>
     
     <div class="button-container">
-        <button class="button" onclick="codificar()">Codificar</button>
-        <button class="button" onclick="decodificar()">Decodificar</button>
+        <button class="button" onclick="criptografar()">Criptografar</button>
+        <button class="button" onclick="descriptografar()">Descriptografar</button>
+        <button class="button" onclick="copiarTexto()">Copiar</button>
+        <button class="button" onclick="limparCampos()">Limpar Campos</button>
     </div>
     
     <footer>
-        Desenvolvido por Adriano Volter
-        
+        Desenvolvido por Adriano Volter - 2024
     </footer>
+    
     
     
     <script src="script.js"></script>
