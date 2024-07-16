@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -10,13 +17,16 @@ body {
     height: 100vh;
 }
 header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     width: 100%;
-    background-color: #007bff;
+    background-color: #6587ac;
     color: white;
     padding: 10px 0;
     text-align: center;
 }
 .container {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,27 +34,34 @@ header {
     margin-top: 20px;
 }
 .input-group {
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     margin: 10px 0;
 }
 .input-group h2 {
+    color: #007bff  ;
+    font-size: 20px;
     margin: 0 0 10px 0;
 }
 textarea, input {
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     height: 200px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     resize: none;
+    border-radius: 10px;
 }
 .button-container {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     width: 100%;
     margin: 20px 0;
 }
 .button {
+    font-family: 'Montserrat', sans-serif;
     margin: 0 10px;
     padding: 10px 20px;
     font-size: 16px;
@@ -55,10 +72,11 @@ textarea, input {
     border-radius: 5px;
 }
 footer {
+    font-family: 'Montserrat', sans-serif;
     margin-top: auto;
     text-align: center;
     width: 100%;
     font-size: 14px;
     padding: 10px;
-    background-color: #f4f4f4;
+    background-color: #6587ac
 }
