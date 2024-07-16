@@ -71,8 +71,14 @@ textarea, input {
     border: none;
     border-radius: 5px;
 }
+
+.button:hover {
+    background-color: #0056b3;
+}
 footer {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
     margin-top: auto;
     text-align: center;
     width: 100%;
