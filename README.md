@@ -1,4 +1,4 @@
-# Encriptador de Texto
+# Decodificador de Texto
 
 Este é um projeto simples de encriptador de texto que permite criptografar e descriptografar mensagens usando uma substituição de letras específica. O projeto é construído com HTML, CSS e JavaScript.
 
